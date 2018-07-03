@@ -6,7 +6,7 @@
 
     <groupId>com.wingconn.hadoop</groupId>
     <artifactId>hadoop</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <dependencies>
         <dependency>
@@ -42,7 +42,7 @@
                     <configuration>
                         <archive>
                             <manifest>
-                                <mainClass>com.cetc.di.hellocetc.App</mainClass>
+                                <mainClass>com.wingconn.hadoop.TemperatureDriver</mainClass>
                                 <addClasspath>true</addClasspath>
                                 <classpathPrefix>lib/</classpathPrefix>
                             </manifest>
